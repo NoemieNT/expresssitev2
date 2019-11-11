@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containerAbout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-size: cover;
+    background-image: url("/assets/img/sable.jpeg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+    max-width: 100vw;
+}
+
+#home {
+    background-color: rgb(192, 185, 169);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    height: 20px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+#aboutText {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-size: cover;
+    color: white;
+    text-shadow: grey;
+}
