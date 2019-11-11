@@ -8,7 +8,7 @@ server.use(express.static(path.join(__dirname, "public"))); //rock solid syntax
 server.set("views", path.join(__dirname, "views"));
 server.set("view engine", "hbs");
 
-//home
+//home v2
 server.get("/", (request, response) => {
   response.render("home", {
     title: "Travel with Noémie",
